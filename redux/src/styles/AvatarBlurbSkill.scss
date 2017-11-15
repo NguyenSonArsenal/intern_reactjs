@@ -1,0 +1,69 @@
+$avatar_width: 52px;
+$max_width: 355px;
+
+.clear { clear: both }
+
+.wrapper{
+  .choose-timezone{
+    margin-bottom: 3%;
+  }
+  .control{
+    width:100%;
+    max-width: 355px;
+    margin-bottom: 20px;
+    .thumb-avatar{
+      width: $avatar_width;
+      float: left;
+      >img{
+        margin-top: 5px;
+        border-radius: 50%;
+      }
+    }
+    .extends{
+      float: left;
+      width: calc(100% - #{$avatar_width});
+      >span{
+        color:#515c62;
+      }
+      .bold-txt{
+        font-weight: bold;
+      }
+      .title{
+        .max-character-length {
+          display: inline-block; /* so height and width actually take affect */
+          max-width: 80%;
+          height: 1em; /* so overflow hidden works and keeps text on one row */
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+        .edit{
+          color:#028cff;
+          font-size: 15px;
+        }
+      }
+
+    }
+  }
+  @media (max-width: 480px) {
+    .control {
+      width: 100%;
+    }
+  }
+  .control-arrange{
+    // border: 1px solid;
+    display: inline-flex;
+    max-width: $max_width;
+    width: 100%;
+    .btn-arrange{
+      cursor: pointer;
+      background:#ccc;
+      border: 1px solid;
+      padding: 5px 10px;
+      font-size: 13px;
+      width: 100px;
+      margin-right: 5px;
+      text-align: center
+    }
+  }
+}
