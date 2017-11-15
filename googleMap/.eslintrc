@@ -1,0 +1,32 @@
+{
+  "extends": ["plugin:react/recommended", "eslint:recommended", "google"],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "globals": {
+    "_": true
+  },
+  "rules": {
+    "no-alert": 0,
+    "no-console":0,
+    "semi": 0,
+    "require-jsdoc": 0,
+    "max-len": [0, 150, 2],
+    "comma-dangle": [0],
+    "no-trailing-spaces": [2, {"skipBlankLines": true}],
+    "padded-blocks": [0],
+    "no-empty": 0,
+    "object-curly-spacing": [0, "nerver"],
+    "no-invalid-this": [0], // disable rule
+    "react/prop-types": 0,
+    "arrow-parens": ["error", "as-needed"]
+  }
+}
