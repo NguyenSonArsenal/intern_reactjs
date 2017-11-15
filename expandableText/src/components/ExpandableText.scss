@@ -1,0 +1,49 @@
+$heightTransparent: 20px;
+
+.show_hide_text {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative; // 2
+  .content {
+    overflow: hidden;
+    position: relative;
+    text-overflow: ellipsis;
+    transition: max-height 2s 0.5s linear;
+    -moz-transition: max-height 2s 0.5s linear;
+    -webkit-transition: max-height 2s 0.5s linear;
+  }
+  .content:before {
+    content:'';
+    width:100%;
+    height:100%;
+    position:absolute;
+    bottom:0;
+    pointer-events : none;
+    background:linear-gradient(transparent $heightTransparent, white);
+  }
+  .fading:before {
+    position: relative;
+  }
+  .gradient:before {
+     background: none;
+  }
+  .showmore, .showless {
+    text-decoration: none;
+    color: red;
+    .titleMoreLess{
+      margin-left: 5px;
+    }
+  }
+  .showmore:hover, .showless:hover {
+    color:green;
+    cursor:pointer;
+  }
+}
+.txtTest {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+  word-wrap:break-word;
+  // height: 200px;
+}
