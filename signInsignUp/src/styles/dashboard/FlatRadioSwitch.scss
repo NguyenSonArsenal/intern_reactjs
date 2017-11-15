@@ -1,0 +1,29 @@
+.flatradioswitch-component{
+  padding: 0 0 30px 0px;
+  text-align: center;
+  .centered{
+    padding: 5px 20%;
+    .lbl-on-off{
+      margin: 5px 0;
+      text-align: left;
+      display: block;
+    }
+    .input-on-off{
+      width: 100%;
+      height: 30px;
+    }
+  }
+  .result{
+    color: red;
+    padding-top: 10px;
+  }
+}
+
+// mobile
+@media screen and (max-width: 480px) {
+  .flatradioswitch-component{
+    .centered{
+      padding: 5px;
+    }
+  }
+}

@@ -1,0 +1,74 @@
+.wrapper_component_googlemap{
+  max-width: 350px;
+  margin: 0 auto;
+  border: 1px solid #7952b3;
+  border-radius: 0.25rem;
+  background: white;
+  padding: 10px;
+  .icon_close{
+    font-size: 25px;
+    cursor: pointer;
+    position: relative;
+    left: 93%;
+    top: 5px;
+  }
+  .div_input_place {
+    position: relative;
+    margin-bottom: 10px;
+    text-align: left;
+    .title_for_input_serach_box{
+      padding: 8px 0;
+    }
+    .input_search_box_googlemap{
+      height: 32px;
+      width: 100%;
+      box-sizing: border-box;
+      border-radius: 3px;
+      font-size: 14px;
+      outline: none;
+      text-overflow: ellipsis;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      border: 1px solid transparent;
+      padding-left: 10px;
+    }
+  }
+  .googlemap_containerElement{
+    height: 300px;
+  }
+  .div_btn_control{
+    display: -webkit-inline-box;
+    padding: 15px 5px 0 5px;
+    .btn_control{
+      padding: 5px 30px;
+      border-radius: 16px;
+      width: 100px;
+      text-align: center;
+    }
+    .btn_add{
+      color: white;
+      background: #2e69ff;
+      border: 1px solid #2e69ff;
+      margin-right: 8px;
+    }
+    .btn_cancel{
+      color: red;
+      background: #c5c5c5;
+      border: 1px solid #c5c5c5;
+      margin-left: 8px;
+    }
+  }
+}
+
+// mobile
+@media screen and (max-width: 480px) {
+  .wrapper_component_googlemap{
+    .icon_close{
+      font-size: 20px;
+      left: 90%;
+      top: 2px;
+    }
+    .googlemap_containerElement{
+      height: 200px;
+    }
+  }
+}

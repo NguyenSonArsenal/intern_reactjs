@@ -1,0 +1,15 @@
+.co-inputmask-component {
+  max-width: 355px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  .input_mask {
+    width: 90%;
+    height: 25px;
+    outline: none;
+    border-radius: .25rem;
+    border: 1px solid rgba(0, 0, 0, .15);
+  }
+}
+

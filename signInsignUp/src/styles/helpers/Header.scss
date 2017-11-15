@@ -1,0 +1,61 @@
+.header-component{
+  .header{
+    display: table;
+    padding: 20px 6px;
+    width: 100%;
+    .title{
+      display: table-cell;
+      font-weight: bold;
+    }
+    .loginlogout{
+      .btn-log{
+        &:hover{
+          text-decoration: underline;
+          color: green;
+        }
+      }
+    }
+    .multi-language{
+      display: table-cell;
+      text-align: right;
+      padding-right: 5%;
+      .icon_language{
+        padding-left: 5px;
+        &:hover{
+          cursor: pointer;
+        }
+      }
+    }
+    .auth{
+      display: table-cell;
+      .auth-log{
+        text-decoration: none;
+        &:hover{
+          text-decoration: underline;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .hr-tag{
+    padding-bottom: 10px;
+    border: none;
+    border-top: 1px solid red;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    opacity: 0.5;
+  }
+}
+
+// mobile
+@media screen and (max-width: 480px) {
+  .header-component{
+    .header{
+      padding: 20px 0;
+    }
+    .multi-language{
+      padding: 0 10px;
+    }
+  }
+}

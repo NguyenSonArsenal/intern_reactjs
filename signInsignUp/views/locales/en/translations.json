@@ -1,0 +1,64 @@
+{
+  "1-header": "header screen",
+  "course": "React Training Course",
+
+  "2-home": "home screen",
+  "about_us": "ABOUT US",
+  "content_course":
+    [
+      "This is react training course",
+      "This course be guided by Mr.Dung who have 10 year expericene with reactjs.",
+      "And now, he is co-founder of Gemsoft software company",
+      "locat edat 110 Ba Trieu street, Hai Ba trung, Ha Noi.",
+      "Here is content of course:"
+    ],
+  "lesstion1": "Lession 1",
+  "lesstion2": "Lession 2",
+  "lesstion3": "Lession 3",
+  "lesstion4": "Lession 4",
+  "lesstion5": "Lession 5",
+  "lesstion6": "Lession 6",
+  "lesstion7": "Lession 7",
+  "lesstion8": "Lession 8 ",
+  "login_now": "Login with us now to know detail",
+
+  "3-login": "login screen",
+  "login": "Login",
+  "forgot_password": "Forgot Password",
+  "email": "Email",
+  "password": "Password",
+  "infor-login-wrong": "Email or password is wrong",
+
+  "4-reset-password": "Reset-password screen",
+  "reset_password": "Reset Password",
+  "some_text_reset": "Enter your email address, and we will email a link to reset your password",
+  "cancel": "Cancel",
+  "reset": "Reset",
+  "confirm_no_email": "Enter your email to reset password",
+  "no_email": "No email",
+  "enter_password": "Enter password to reset",
+
+  "5-index-dashboard": "dashboard/index screen",
+  "logout": "Logout",
+  "add_location": "Add Location",
+
+  "6-flat-radio-switch": "dashboard/lession1 screen",
+  "flatradioswitch": "App Flat-Radio-Switch",
+  "label-on": "Label On",
+  "label-off": "Label Off",
+  "result": "Result",
+
+  "7-input-mask": "input mask screen",
+  "title-input-mask": "App Input Mask",
+  "accept": "Accept",
+  "prefix": "Prefix",
+  "suffix": "Suffix",
+  "custom_mask": "Custom",
+  "result": "Result",
+
+  "8-input-mask": "google map screen",
+  "app-google-map": "Google Map App",
+  "result app google map": "Enter a location on input serach box",
+  "place": "Place: "
+
+}

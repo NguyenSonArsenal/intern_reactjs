@@ -1,0 +1,65 @@
+$bgDefaultOn: #00e1df;
+$bgDefaultOff: white;
+
+.login-component{
+  padding:10px;
+  .title{
+    font-size: 30px;
+    margin-bottom: 6px;
+    text-align: center;
+  }
+  .centered{
+    padding: 5px 20%;
+    .lbl-email-password{
+      margin: 5px 0;
+      display: inline-block;
+    }
+    .input-label{
+      width: 100%;
+      height: 30px;
+    }
+    .input-label:focus{
+      outline: 1px solid #7952b3;
+    }
+    .infor-err{
+      color:red;
+      padding-top: 10px;
+    }
+    .btn-login{
+      margin-top: 20px;
+      border-radius: 14px;
+      border: 1px solid #7952b3;
+      font-size: 17px;
+      text-align: center;
+      padding: 2px 0;
+      &:hover{
+        cursor: pointer;
+        background: #7952b3;
+        border: 1px solid #eee;
+        color: white;
+      }
+    }
+  }
+  .reset-password{
+    text-align: right;
+    padding: 15px 0 0 0;
+    position: relative;
+    .link-to-reset-password{
+      text-decoration: none;
+      &:hover{
+        cursor: pointer;
+        color: #306cff;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+// mobile
+@media screen and (max-width: 480px) {
+  .login-component{
+    .centered{
+      padding: 5px;
+    }
+  }
+}

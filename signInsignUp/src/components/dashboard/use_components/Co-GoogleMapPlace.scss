@@ -1,0 +1,31 @@
+.wrapper{
+  >h1{
+    margin-bottom: 20px;
+  }
+  .div-component{
+    .input-place {
+      position: relative;
+      // bottom: 445px;
+      margin-bottom: 20px;
+
+    }
+  }
+  .map {
+    margin-top: 20px;
+    height: 400px;
+  }
+}
+
+.input-search-box{
+  height: 32px;
+  width: 240px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-size: 14px;
+  outline: none;
+  text-overflow: ellipsis;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  border: 1px solid transparent;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,17 @@
+$bgDefaultOn: #00e1df;
+$bgDefaultOff: white;
+.radioswitch-component{
+  margin-top: 20px;
+  display: inline-flex;
+  >div{
+    margin:3px;
+    border: 1px solid #3fe8e7;
+    padding: 10px;
+    width: 115px;
+    height: 10px;
+    text-align: justify;
+  }
+  .bgOn{
+    background: $bgDefaultOn;
+  }
+}

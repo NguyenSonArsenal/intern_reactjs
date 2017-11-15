@@ -1,0 +1,55 @@
+{
+  "1-header": "header screen",
+  "course": "Khóa thực tập React",
+
+  "2-home": "home screen",
+  "about_us": "VỀ CHÚNG TÔI",
+  "lesstion1": "Nội dung 1",
+  "lesstion2": "Nội dung 2",
+  "lesstion3": "Nội dung 3",
+  "lesstion4": "Nội dung 4",
+  "lesstion5": "Nội dung 5",
+  "lesstion6": "Nội dung 6",
+  "lesstion7": "Nội dung 7",
+  "lesstion8": "Nội dung 8",
+  "login_now": "Đăng nhập để biết thêm thông tin chi tiết về từng nội dung",
+
+  "3-login": "login screen",
+  "forgot_password": "Quên mật khẩu",
+  "login": "Đăng nhập",
+  "email": "Email",
+  "password":"Mật khẩu",
+  "infor-login-wrong": "Email hoặc mật khẩu sai",
+
+  "4-reset-password": "Reset-password screen",
+  "reset_password": "Đặt lại mật khẩu",
+  "some_text_reset": "Nhập địa chỉ email của bạn, và chúng tôi sẽ mở form để bạn đặt lại mật khẩu",
+  "cancel": "Hủy bỏ",
+  "reset": "Đặt lại",
+  "confirm_no_email": "Nhập email của bạn để đặt lại mật khẩu",
+  "no_email": "Email không tồn tại",
+  "enter_password": "Nhập mật khẩu để đặt lại",
+
+  "5-index-dashboard": "dashboard/index component",
+  "logout": "Đăng xuất",
+  "add_location": "Thêm địa điểm",
+
+  "6-flat-radio-switch": "dashboard/lession1 screen",
+  "flatradioswitch": "Ứng dụng Flat-Radio-Switch",
+  "label-on": "Bật",
+  "label-off": "Tắt",
+  "result": "Kết quả",
+
+  "7-input-mask": "input mask screen",
+  "title-input-mask": "Ứng dụng Input Mask",
+  "accept": "Đồng ý",
+  "prefix": "Trước",
+  "suffix": "Sau",
+  "custom_mask": "Đặt lại đầu vào",
+  "result": "Kết quả",
+
+  "8-input-mask": "google map screen",
+  "app-google-map": "Ứng dụng Google Map",
+  "result app google map": "Nhập một địa chỉ trên ô tìm kiếm",
+  "place": "Địa điểm: "
+}

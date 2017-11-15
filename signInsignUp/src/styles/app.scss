@@ -1,0 +1,14 @@
+.app{
+  border: 1px solid;
+  margin: 0 auto;
+  width: 50%;
+  padding: 0 15px;
+}
+
+// mobile
+@media screen and (max-width: 480px) {
+  .app{
+    width: 100%;
+    padding: 0;
+  }
+}

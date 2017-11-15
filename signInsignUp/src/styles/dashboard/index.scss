@@ -1,0 +1,89 @@
+.overlay {
+}
+.ReactModal__Overlay--after-open{
+  background: red;
+}
+.modal_overlay_content{
+  outline: none;
+}
+
+.ReactModal__Content {
+  transition: all 1500ms ease-in;
+  transform: translateY(0px);
+  // background: rgba(0, 0, 0, 0.15);
+  opacity: 1;
+  &--after-open {
+    opacity: 1;
+    transform: translateY(26%);
+  }
+  &--before-close {
+    opacity: 0;
+    transform: translateY(-26%);
+  }
+}
+
+.dashboard-component{
+  padding-bottom: 15px;
+  .title_app{
+    margin: 30px auto;
+    text-align: center;
+  }
+  .main{
+    margin: 0 auto;
+    text-align: center;
+    .link_logout{
+      text-align: right;
+      display: block;
+      text-decoration: none;
+      font-size: 18px;
+      &:hover{
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    }
+    .list_location{
+      .thumb_avatar{
+        .icon_for_location{
+          position: relative;
+          top: 6px;
+        }
+        .location{
+          padding-top: 5px;
+        }
+      }
+    }
+    .btn_add_location{
+      margin: 20px;
+      border: 1px solid #7952b3;
+      color: #7952b3;
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      border-radius: 0.25rem;
+      font-weight: bold;
+      transition: all .2s ease-in-out;
+      &:hover{
+        cursor: pointer;
+        background: #7952b3;
+        border: 1px solid #7952b3;
+        color: white;
+      }
+    }
+  }
+  .detail-lession{
+    padding-left: 15px;
+    .title{
+      font-size: 17px;
+      margin-bottom: 10px;
+    }
+    .lession{
+      padding: 3px 0;
+      display: table;
+      &:hover{
+        cursor: pointer;
+        text-decoration: underline;
+        color: green;
+      }
+    }
+  }
+}

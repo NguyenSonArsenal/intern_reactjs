@@ -1,0 +1,47 @@
+.home-component{
+  padding: 10px 5px;
+  .title-content{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .content-about-us{
+    padding: 10px 0;
+    text-align: justify;
+    .btn-login-in-content{
+      text-decoration: none;
+      padding: 2px 0;
+      width: 100px;
+      display: inline-block;
+      text-align: center;
+      border: 1px solid;
+      border-radius: 16px;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+  .detail-lession{
+    padding-left: 15px;
+    .lession{
+      padding: 3px 0;
+      display: table;
+      &:hover{
+        cursor: pointer;
+        text-decoration: underline;
+        color: green;
+      }
+    }
+  }
+}
+
+// mobile
+@media screen and (max-width: 480px) {
+  .content-about-us{
+    .btn-login-in-content{
+      display: block;
+      margin-top: 10px;
+    }
+  }
+}
