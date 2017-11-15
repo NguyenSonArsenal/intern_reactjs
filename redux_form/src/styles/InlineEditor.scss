@@ -1,0 +1,37 @@
+$max_width: 355px;
+.hidden{
+  display: none;
+}
+.inline-editor{
+  padding: 3px;
+  .editor{
+    margin: 15px 0 10px;
+    .input-editor{
+      height: 25px;
+      max-width: $max_width;
+      width: 98%;
+    }
+  }
+  .control-edit{
+    display: inline-flex;
+    max-width: $max_width;
+    width: 100%;
+    .margin-left{
+      margin-left: 55%;
+      background: #adacac;
+    }
+    .btn-save{
+      background: #028cff;
+    }
+    .btn-control{
+      cursor: pointer;
+      color:#fff;
+      padding: 5px 10px;
+      font-size: 13px;
+      width: 60px;
+      margin-right: 5px;
+      text-align: center;
+      float: right;
+    }
+  }
+}

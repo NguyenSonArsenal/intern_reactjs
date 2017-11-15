@@ -1,0 +1,51 @@
+$widthLbl: 100px;
+$inputHeight: 30px;
+$inputWidth: 300px;
+.react-datepicker-ignore-onclickoutside{
+  // height: 30px;
+  // width: 300px;
+}
+.form-add-skill{
+  border: 1px solid green;
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 20px;
+  .input-row{
+    margin-bottom: 15px;
+    .lbl{
+      width: $widthLbl;
+      display: inline-block;
+    }
+    .show-error{
+      margin-left: $widthLbl;
+      color:red;
+    }
+    >input{
+      height: $inputHeight;
+      width: $inputWidth;
+    }
+    .inputDateAdded{
+      display: inline-block;
+      >div{
+        .react-datepicker-wrapper{
+          .react-datepicker__input-container{
+            >input{
+              height: $inputHeight;
+              width: $inputWidth;
+            }
+          }
+        }
+      }
+    }
+  }
+  .btnCancel{
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 10px;
+    cursor:pointer;
+  }
+  .btnSubmit{
+    cursor:pointer;
+  }
+}
+
