@@ -1,0 +1,38 @@
+$bgDefaultOn: #00e1df;
+$bgDefaultOff: white;
+
+.wrapper{
+  border: 1px solid #8a8a8a;
+  padding:0 0 30px 0px;
+  width: 400px;
+  text-align: center;
+  .label{
+    >p{
+      position: relative;
+      top: 10px;
+      left: -120px;
+    }
+    .inputLabel{
+      margin-top: -5px;
+      width: 300px;
+      height: 20px;
+    }
+  }
+  .control{
+    margin-top: 20px;
+    display: inline-flex;
+    >div{
+      //display: table-cell;
+      margin:3px;
+      border: 1px solid #3fe8e7;
+      padding: 10px;
+      width: 130px;
+      text-align: justify;
+    }
+    .bgOn{
+      background: $bgDefaultOn;
+    }
+
+  }
+
+}
