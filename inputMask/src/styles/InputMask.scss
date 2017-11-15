@@ -1,0 +1,30 @@
+$paddingToFitComponent: 10px;
+
+.wrapper {
+  margin: 0 auto;
+  text-align: center;
+  // border:1px solid;
+  padding-bottom: 25px;
+  >h1 {
+    margin-bottom: 20px;
+  }
+  .div_component {
+    border: 1px solid red;
+    max-width: 355px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    padding-right: $paddingToFitComponent + 2px;
+    .input_mask {
+      width: 100%;
+      height: 25px;
+      outline: none;
+      padding-left: $paddingToFitComponent;
+      border-radius: .25rem;
+      border: 1px solid rgba(0,0,0,.15);
+    }
+
+  }
+}
+

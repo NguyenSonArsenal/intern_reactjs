@@ -1,0 +1,46 @@
+.wrapper{
+  .lbl_test_input_mask{
+    display: block;
+    padding: 10px;
+  }
+  .title_custom_mask{
+    color:#028cff;
+    &:hover{
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+  .custom_mask{
+    .box_input{
+      // border: 1px solid;
+      padding: 6px;
+      .lbl_for_prefix_suffix{
+        margin-right: 10px;
+      }
+      .input_text_mask{
+        height: 25px;
+        max-width: 214px;
+        width: 100%;
+        border-radius: .25rem;
+        border: 1px solid rgba(0,0,0,.15);
+        padding-left: 10px;
+        outline:none;
+      }
+      .btn_control{
+        display: inline-block;
+        border-radius: .25rem;
+        border: 1px solid rgba(0,0,0,.15);
+        padding: 5px 10px;
+        margin: 10px 5px 0 0;
+        &:hover{
+          background: #ccc;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+input:focus {
+  border-color: #cfdc00;
+  box-shadow: 0 0 5px rgba(207, 220, 0, 0.4);
+}

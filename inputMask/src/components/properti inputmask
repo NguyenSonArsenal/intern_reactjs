@@ -1,0 +1,11 @@
+ onChange = { this.handleInputNumber }
+          prefix = { this.state.txtPrefixComponentDefault }
+          suffix = { this.state.txtSuffixComponentDefault }
+          decimalLimit = { this.state.decimalLimit }
+          allowDecimal = { this.state.allowDecimal }
+          allowLeadingZeroes = { this.state.allowLeadingZeroes }
+          placeholder = { this.state.placeholder }
+          thousandsSeparatorSymbol = { this.state.thousandsSeparatorSymbol }
+          decimalSymbol = { this.state.decimalSymbol }
+          inputMaskType = { this.state.inputMaskType }
+          value = { this.state.inputMaskDefaultValue }
